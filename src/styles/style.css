@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../dist/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', 'sans serif';
+    color: #774E2E;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+/* end common styles */
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: #774E2E;
+    text-decoration: none;
+}
+
+.logo{
+    width: 79px;
+    height: 79px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    column-gap: 50px;
+}
+
+/* end of header */
+
+.section-greetings{
+    background-image: url(../dist/img/greetings.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 596px;
+}
+
+.greetings{
+    width: 50%;
+}
+
+h1{
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h1 span, h2 span{
+    color: #F37F34;
+}
+
+.section-greetings a{
+    text-decoration: none;
+    color: white;
+    background-color: #774E2E;
+    padding: 22px;
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+section:nth-child(2){
+    background-color: #FFF9EA;
+    padding: 150px 0px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    max-width: 330px;
+    background-color: white;
+    padding: 15px 20px 30px 20px;
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+/* end of second section */
+
+section:last-child{
+    padding-bottom: 400px;
+    background-image: url('../dist/img/advice.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.list-container{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.list-container h2{
+    padding-top: 20px;
+}
+
+ul{
+    padding-left: 22px;
+}
+
+/* end styles list section */
+
+footer{
+    background-color: #774E2E;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-size: 36px;
+}
+
+/* end of footer */
